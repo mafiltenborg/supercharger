@@ -1,0 +1,8 @@
+# Kicad creates its own backups - don't mess with those
+KiCAD/supercharger/*-backups/**
+KiCAD/supercharger/gerbers/**
+KiCAD/supercharger/Specs/**
+KiCAD/supercharger/fp-info-cache
+KiCAD/supercharger/*.csv
+KiCAD/supercharger/*.xml
+
