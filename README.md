@@ -7,7 +7,7 @@ Here, you find my take on the subject. It's inspired by a design made by Tom LeM
 https://github.com/tomcircuit/TI59_battery
 
 Credit for the casing design goes to him!
-The electronics, however, is my work. It carries the CC-BY-SA license to keep things simple.
+The electronics, however, is my work. It carries the GNU GPL v3.0 license.
 
 The target I'm aiming for is maximum capacity within the physical constraints given, USB-C charging and an on-off switch on the pack itself.
 * Capacity: NiCd pack delivered 500 mAh, giving roughly 3 hours of on-time. I'd like to have a full working-day, meaning at least 1500 mAh.
