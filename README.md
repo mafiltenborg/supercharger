@@ -11,7 +11,7 @@ The electronics, however, is my work. It carries the CC-BY-SA license to keep th
 
 The target I'm aiming for is maximum capacity within the physical constraints given, USB-C charging and an on-off switch.
 * Capacity: NiCd pack delivered 500 mAh, giving roughly 3 hours of on-time. I'd like to have a full working-day, meaning at least 1500 mAh.
-* USB-C: The current standard. Also, the original charger delivers a maximum of 150 mA, leading to a theoretical charging time of at least 10 hours - more likely 'overnight'.
+* USB-C: The current charging standard. Also, the original charger delivers a maximum of 150 mA, leading to a theoretical charging time of at least 10 hours - more likely 'overnight'. Going with something like 500 mA would reduce charging time to 4 or 5 hours in the real world.
 * On-off switch: I'd like to take the strain off of the built-in slide switch.
 
 This is a Work In Progress.
