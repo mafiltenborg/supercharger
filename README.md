@@ -1,10 +1,11 @@
 # BP-1A lookalike battery pack: BP-1M
+**This is a Work In Progress. It's not even complete!**
+
 A number of vintage Texas Instruments calculators were powered by a pack of 3 rechargeable NiCd AA-sized cells in a plastic casing. None of these packs (named BP-1 and BP-1A) have survived the ravages of time, so lots of vintage calculators now need replacement battery packs.
 
 Preferably not made with NiCd-cells!
 
-Here, you find my take on the subject. It's inspired by a design made by Tom LeMense aka tomcircuit carrying the CC-BY-SA licence (https://creativecommons.org/cc-licenses/), found here:
-https://github.com/tomcircuit/TI59_battery
+Here, you find my take on the subject. I've taken inspiration from a design made by Tom LeMense (aka *tomcircuit*) carrying the [CC-BY-SA licence](https://creativecommons.org/cc-licenses/), found here: https://github.com/tomcircuit/TI59_battery
 
 Credit for the casing design goes to him!
 The electronics also originate from tomcircuit, albeit in a different form factor and with some tweaks.
@@ -23,4 +24,3 @@ I'm aiming for maximum capacity within the physical constraints given, USB-C cha
 ## Additional thoughts & ideas
 A charging stand to fit the TI59. Should be achievable as the pack's USB-C is pointing straight down. Could also be executed with magnetic pogo-pin-coupling. Hmmm...
 
-This is a Work In Progress.

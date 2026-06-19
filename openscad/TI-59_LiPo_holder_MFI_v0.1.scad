@@ -80,10 +80,12 @@ p6 = [(latch_tab_l - latch_tab_l2)/2,latch_tab_h2];
 p7 = [latch_tab_w2,0];
 cutout_points = [p4, p5, p6, p7];
 
-echo("inside cavity width is", super_w);
-echo("inside cavity length is", super_l);
+echo("inside cavity width is", super_w-2*super_wall_t);
+echo("inside cavity length is", super_l-2*super_wall_t);
 echo("inside cavity height is", pcb_z);
 echo("PCB dimensions are ",pcb_w," x ",pcb_l);
+
+
 
 module RoundedBoss(side,height,hole_dia){
     difference() {
@@ -157,7 +159,7 @@ difference() {
 // subtractive items            
     
     //Make a hole for the charger circuit
-    translate([2.2, 7.5,-0.01]) 
+    translate([3.0, 7.5,-0.01]) // Use 0.8mm PCB!
       hull() {
         cylinder(d=3.4, h=7.0);
         translate([0,6.1,0]) cylinder(d=3.4, h=7.0);
@@ -198,7 +200,8 @@ difference() {
     
     // remove the superstructure insides
     translate([super_wall_t-ledge_t1, ledge_t+super_wall_t, base_t+super_floor_t])
-      cube([super_w-2*super_wall_t, super_l-2*super_wall_t, 20]); 
+      cube([super_w-2*super_wall_t, super_l-2*super_wall_t, 20]);
+ 
     
     // etch some text into the floor
     translate([base_w/2,base_l/2,base_t])
