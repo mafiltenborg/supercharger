@@ -1,9 +1,9 @@
 # BP-1A lookalike battery pack: BP-1M
 **This is a Work In Progress. It's not even complete!**
 
-A number of vintage Texas Instruments calculators were powered by a pack of 3 rechargeable NiCd AA-sized cells in a plastic casing. None of these packs (named BP-1 and BP-1A) have survived the ravages of time, so lots of vintage calculators now need replacement battery packs.
+If you own a vintage Texas Instruments calculator powered by a BP-1 or BP-1A pack of 3 rechargeable NiCd AA-sized cells in a plastic casing, this repo may be of interest to you.
 
-Preferably not made with NiCd-cells!
+Because none of these packs have survived the ravages of time, meaning lots of vintage calculators now need replacement battery packs. Yours too?
 
 Here, you find my take on the subject. I've taken inspiration from a design made by Tom LeMense (aka *tomcircuit*) carrying the [CC-BY-SA licence](https://creativecommons.org/cc-licenses/), found here: https://github.com/tomcircuit/TI59_battery
 
