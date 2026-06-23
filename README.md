@@ -14,8 +14,10 @@ The electronics also originate from tomcircuit, albeit in a different form facto
 I'm aiming for maximum capacity within the physical constraints given, USB-C charging and an on-off switch on the pack itself.
 * Capacity: NiCd pack delivered 500 mAh, giving roughly 3 hours of on-time. I'd like to have a full working-day, meaning at least 1500 mAh.
 * USB-C: The current charging standard. Also, the original charger delivers a maximum of 150 mA, leading to a theoretical charging time of at least 10 hours - more likely 'overnight'. Going with something like 500 mA would reduce charging time to 4 or 5 hours in the real world.
+* Charging indicator LED. Takes the guesswork out of the refill-process.
 * On-off switch: I'd like to take the strain off of the built-in slide switch.
-* Finally, it's dawned on me (greetings go to tomcircuit) that it's possible to make the design so that the calculator can be run off of the OE charger with the pack installed. A combo of practicality and foolproofing; I like that! 
+* Charge state indicator; push a button and get indication on a tiny three-colour LED-bar
+* Finally, it's dawned on me (greetings go to tomcircuit) that it's possible to make the design so that the calculator can be run off of the OE charger with the pack installed. A combo of practicality and foolproofing; I like that!
 
 ## Unachievable, unselected or unwanted targets:
 * Charging installed pack by means of the OE charger. Possible in theory, but we'd have to accept at least a 10-hour charging period - with the calculator off. Also, I'm doubtful if there's room for the extra circuitry.
@@ -24,3 +26,4 @@ I'm aiming for maximum capacity within the physical constraints given, USB-C cha
 ## Additional thoughts & ideas
 A charging stand to fit the TI59. Should be achievable as the pack's USB-C is pointing straight down. Could also be executed with magnetic pogo-pin-coupling. Hmmm...
 
+![Electronics - prototype stage](/Assets/prototype_2026-06-23_160654.png)
