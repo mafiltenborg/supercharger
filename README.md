@@ -19,10 +19,10 @@ I'm aiming for maximum capacity within the physical constraints given, USB-C cha
 * Charge state indicator; push a button and get indication on a tiny three-colour LED-bar
 * Finally, it's dawned on me (greetings go to tomcircuit) that it's possible to make the design so that the calculator can be run off of the OE charger with the pack installed. A combo of practicality and foolproofing; I like that!
 
+![Electronics - prototype stage](/Assets/prototype_2026-06-23_160654.png)
+
 ## Unachievable, unselected or unwanted targets:
 * Charging installed pack by means of the OE charger. Possible in theory, but we'd have to accept at least a 10-hour charging period - with the calculator off. Also, I'm doubtful if there's room for the extra circuitry.
-
-![Electronics - prototype stage](/Assets/prototype_2026-06-23_160654.png)
 
 ## Additional thoughts & ideas
 A charging stand to fit the TI59. Should be achievable as the pack's USB-C is pointing straight down. Could also be executed with magnetic pogo-pin-coupling. Hmmm...
