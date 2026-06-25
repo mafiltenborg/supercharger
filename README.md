@@ -21,7 +21,7 @@ I'm aiming for maximum capacity within the physical constraints given, USB-C cha
 
 ![Electronics - prototype stage](/Assets/prototype_2026-06-23_160654.png)
 
-## Unachievable, unselected or unwanted targets:
+## Unachievable, unselected or unwanted targets
 * Charging installed pack by means of the OE charger. Possible in theory, but we'd have to accept at least a 10-hour charging period - with the calculator off. Also, I'm doubtful if there's room for the extra circuitry.
 
 ## Additional thoughts & ideas

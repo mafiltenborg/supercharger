@@ -159,7 +159,7 @@ difference() {
 // subtractive items            
     
     //Make a hole for the charger circuit
-    translate([3.0, 7.5,-0.01]) // Use 0.8mm PCB!
+    translate([3.0, 6.5,-0.01]) // Use 0.8mm PCB!
       hull() {
         cylinder(d=3.4, h=7.0);
         translate([0,6.1,0]) cylinder(d=3.4, h=7.0);
