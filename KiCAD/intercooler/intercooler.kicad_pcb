@@ -126,9 +126,10 @@
 		(uuid "00c4762c-4c98-4b30-991b-c407070c09d6")
 		(at 126.5 124.5)
 		(property "Reference" "J2"
-			(at 0 0 0)
+			(at 0 -4.8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6ab4674b-0508-4346-92ba-4624ad22fd65")
 			(effects
 				(font
@@ -440,9 +441,10 @@
 		(uuid "b98dbfae-ce28-49be-b1e4-65628ff8fd06")
 		(at 126.5 105.8)
 		(property "Reference" "J1"
-			(at 0 0 0)
+			(at -0.3 4.8 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "078bd900-ac74-4abf-b58e-4df2ed46a67e")
 			(effects
 				(font
