@@ -5,4 +5,14 @@ KiCAD/supercharger/Specs/**
 KiCAD/supercharger/fp-info-cache
 KiCAD/supercharger/*.csv
 KiCAD/supercharger/*.xml
+KiCAD/supercharger/*.stl
+KiCAD/supercharger/*.step
+KiCAD/supercharger/*.sldprt
+
+KiCAD/intercooler/*-backups/**
+KiCAD/intercooler/gerbers/**
+KiCAD/intercooler/Specs/**
+KiCAD/intercooler/fp-info-cache
+KiCAD/intercooler/*.csv
+KiCAD/intercooler/*.xml
 
