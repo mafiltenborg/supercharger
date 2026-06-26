@@ -580,7 +580,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "LiPo battery\nUSB-C charger\nAux On/Off switch"
+	(gr_text "LiPo battery\nUSB-C charger\nAux On/Off switch\nFuel gauge"
 		(at 149.1 114.7 90)
 		(layer "F.SilkS")
 		(uuid "ceec6ac4-a10a-4bfb-8f84-81f51d3fef5d")
