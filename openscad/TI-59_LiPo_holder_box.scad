@@ -159,21 +159,45 @@ difference() {
 // subtractive items            
     
     //Make a hole for the charger circuit
-    translate([3.3, 7.0,-0.01]) // Use 0.8mm PCB! Old: 3.8, 5.5
+    translate([3.4, 6.9,-0.01]) // Use 0.8mm PCB! Old: 3.3, 7.0
       hull() {
-        cylinder(d=3.4, h=7.0);
-        translate([0,6.1,0]) cylinder(d=3.4, h=7.0);
+        cylinder(d=3.6, h=7.0);
+        translate([0,6.1,0]) cylinder(d=3.6, h=7.0);
       }
+
+    // Make holes for LEDs
       
-    // Make a hole for the first (charging) LED
-    translate([2.8, 18.0,-0.01]) // Use 0.8mm PCB! Old: 3.8, 16.0
+    xLED = 17.5;
+    // The charging LED
+    translate([2.8, xLED,-0.01]) // Old: 3.8, 16.0
+      cylinder(d=1.5, h=7.0);
+    // The RED state LED
+    translate([2.8, xLED + 3.3,-0.01]) // Old: 
+      cylinder(d=1.5, h=7.0);
+    // The YELLOW state LED
+    translate([2.8, xLED + 6.3,-0.01]) // Old: 
+      cylinder(d=1.5, h=7.0);
+    // The first GREEN state LED
+    translate([2.8, xLED + 9.3,-0.01]) // Old: 
+      cylinder(d=1.5, h=7.0);
+    // The second GREEN state LED
+    translate([2.8, xLED + 12.3,-0.01]) // Old: 
       cylinder(d=1.5, h=7.0);
       
+    // Make a hole for the State pushbutton
+    translate([2.0, xLED + 16.0,-0.01]) // Old:
+      union() {
+        cube([1.5,2.0,7.0]);// Old:
+        translate([0.8,1,-2.5]) sphere(4);// Old:
+      }
+      
     // Make a hole for the on/off switch lever
-    translate([1.8, 39.0,-0.01]) // Use 0.8mm PCB! Old: 1.8, 36.0
-      hull() {
-        cube([1.5,1.5,7.0]);
-        translate([0,3.0,0]) cube([1.5,1.5,7.0]);
+    translate([1.8, 39.5,-0.01]) // Old: 1.8, 36.0
+      union() {
+        cube([1.7,4.8,7.0]);// Old:
+        translate([-1,-1,0])// Old:
+          cube([3.7,6.8,0.8]);// Old:
+        
       }
 
     // remove tab release slot from base
@@ -218,7 +242,7 @@ difference() {
     translate([base_w/2,base_l/2,base_t])
       rotate([0,0,90])
         linear_extrude(3)
-          text( "v0.1", size= 10, ,halign = "center", valign = "bottom" );
+          text( "v0.2", size= 8, ,halign = "center", valign = "bottom" );
 }
 
 // Now, add stuff to the empty internal cavity
