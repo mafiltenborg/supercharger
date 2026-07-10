@@ -3657,6 +3657,17 @@
 		)
 		(uuid "7df1d576-ceb6-4ec5-bd57-0299186d172e")
 	)
+	(text "R3 = 1000/Ic(mA)\n\n3K3: 300mA (5h)\n2K: 500mA (3h)\n1.3K: 750mA (2h)"
+		(exclude_from_sim no)
+		(at 67.818 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "83750be0-70f2-4043-b476-b522f01d4da7")
+	)
 	(text "Battery/Calc\ndisconnect\n(Alt. On/Off)"
 		(exclude_from_sim no)
 		(at 157.48 101.092 0)
@@ -3676,6 +3687,16 @@
 			)
 		)
 		(uuid "97c967a6-f1d4-46b4-a69c-edf0f6d3265b")
+	)
+	(text "STC4054 can be replaced with \nLTH7R if you replace R2 with 0R5"
+		(exclude_from_sim no)
+		(at 44.45 31.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a3ab632c-4ea5-4907-9371-0660d07b75a6")
 	)
 	(text "The zener diode & ideal diode exist because the calculator can still be connected to\nthe hideous OE AC-charger. THis device emits a nasty +6V rectified AC towards what it sees\nas 'the battery' - meaning the LiPo-charger's output would see this if we didn't\nprevent that by clamping it to 5.1V"
 		(exclude_from_sim no)
@@ -6370,7 +6391,7 @@
 				)
 			)
 		)
-		(property "Value" "LTH7R"
+		(property "Value" "STC4054"
 			(at 62.23 74.93 0)
 			(effects
 				(font
@@ -6387,7 +6408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.elcircuits.com/programmable-4v2-battery-charger-lth7r/"
+		(property "Datasheet" "file:///C:/Users/mfi/Downloads/stc4054-1.pdf"
 			(at 54.864 71.374 0)
 			(effects
 				(font
@@ -6647,7 +6668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R5"
+		(property "Value" "0R"
 			(at 56.388 48.514 0)
 			(effects
 				(font
