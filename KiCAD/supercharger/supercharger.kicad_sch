@@ -2624,12 +2624,6 @@
 		(uuid "1292f4b6-e7a4-40b1-8ee6-ab90fd64fbaa")
 	)
 	(junction
-		(at 171.45 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "170c18ce-de53-4172-9e43-04b543c9ccc4")
-	)
-	(junction
 		(at 63.5 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2849,7 +2843,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 69.85) (xy 171.45 71.12)
+			(xy 171.45 69.85) (xy 171.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2989,16 +2983,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 172.72 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "405b87b4-e4a8-4995-b30b-ac6021468847")
-	)
-	(wire
-		(pts
 			(xy 67.31 147.32) (xy 60.96 147.32)
 		)
 		(stroke
@@ -3046,16 +3030,6 @@
 			(type default)
 		)
 		(uuid "58f1ba6f-a3ba-4154-a1f6-17229ef2a4d5")
-	)
-	(wire
-		(pts
-			(xy 171.45 71.12) (xy 171.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b865273-2d44-41d9-afd8-e9774d65b888")
 	)
 	(wire
 		(pts
@@ -3166,16 +3140,6 @@
 			(type default)
 		)
 		(uuid "82301637-abf5-4188-a628-c18ef4eab403")
-	)
-	(wire
-		(pts
-			(xy 172.72 69.85) (xy 171.45 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82f59d99-b88e-45a0-a519-57b44d4f6605")
 	)
 	(wire
 		(pts
@@ -3369,16 +3333,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 78.74) (xy 171.45 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc59c671-6178-43a1-a2eb-afabdc7e5e02")
-	)
-	(wire
-		(pts
 			(xy 88.9 88.9) (xy 88.9 90.17)
 		)
 		(stroke
@@ -3476,6 +3430,16 @@
 			(type default)
 		)
 		(uuid "cf971f07-61cb-42fe-a499-a069d3c0a660")
+	)
+	(wire
+		(pts
+			(xy 171.45 78.74) (xy 171.45 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2267bcb-f8d5-4d4d-a863-0db427b3caa9")
 	)
 	(wire
 		(pts
@@ -3599,16 +3563,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 71.12) (xy 171.45 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3d63cb-0c8e-4cd3-971d-6a66a8307c3a")
-	)
-	(wire
-		(pts
 			(xy 146.05 72.39) (xy 146.05 76.2)
 		)
 		(stroke
@@ -3653,6 +3607,26 @@
 		)
 		(uuid f76d86fd-1d94-404a-8c2b-928b44782800)
 	)
+	(text "Red"
+		(exclude_from_sim no)
+		(at 107.696 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "19e3a815-94b3-4edf-a56d-bc8484cbe8a7")
+	)
+	(text "Grn"
+		(exclude_from_sim no)
+		(at 118.11 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2b668dd3-63be-4c6e-899f-cc091d11bdf8")
+	)
 	(text "Sideview\nLED"
 		(exclude_from_sim no)
 		(at 28.956 59.69 90)
@@ -3663,9 +3637,29 @@
 		)
 		(uuid "6508c3c4-cf76-42eb-8624-9431fcbeb654")
 	)
+	(text "Grn"
+		(exclude_from_sim no)
+		(at 122.936 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "72b94586-3883-40a0-a745-85f5b403f7de")
+	)
+	(text "Yel"
+		(exclude_from_sim no)
+		(at 113.03 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7df1d576-ceb6-4ec5-bd57-0299186d172e")
+	)
 	(text "Battery/Calc\ndisconnect\n(Alt. On/Off)"
 		(exclude_from_sim no)
-		(at 158.242 51.308 0)
+		(at 157.48 101.092 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3675,7 +3669,7 @@
 	)
 	(text "Ideal diode"
 		(exclude_from_sim no)
-		(at 159.766 41.402 0)
+		(at 159.512 45.466 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3713,9 +3707,9 @@
 		)
 		(uuid "c18fc7ad-e40d-4bad-ac62-da6bbe4bfecc")
 	)
-	(text "Manufacturer's reference design"
+	(text "Charging circuit"
 		(exclude_from_sim yes)
-		(at 47.498 101.854 0)
+		(at 54.864 102.108 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3810,7 +3804,7 @@
 		(dnp no)
 		(uuid "03c7586f-83d8-447a-a32c-71910783ad1f")
 		(property "Reference" "D2"
-			(at 160.02 25.146 0)
+			(at 153.416 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3812,7 @@
 			)
 		)
 		(property "Value" "MAX40203AUK+"
-			(at 160.02 27.686 0)
+			(at 160.02 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +4543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3U-3000PM-B/2754806"
 			(at 80.01 71.12 0)
 			(effects
 				(font
@@ -4715,7 +4709,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 76.2 0)
+		(at 171.45 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4724,7 +4718,7 @@
 		(fields_autoplaced yes)
 		(uuid "47c53e25-ebd3-4939-9913-68b0339cd74c")
 		(property "Reference" "#PWR014"
-			(at 171.45 82.55 0)
+			(at 171.45 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4733,7 +4727,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 81.28 0)
+			(at 171.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +4735,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 76.2 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4750,7 +4744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 76.2 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4753,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 76.2 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5056,10 +5050,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5cf5092e-e67f-4325-a4f1-72d913312550")
 		(property "Reference" "J2"
-			(at 160.02 74.93 0)
+			(at 157.226 78.994 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5067,7 +5060,7 @@
 			)
 		)
 		(property "Value" "BAT"
-			(at 160.02 77.47 0)
+			(at 162.306 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6221,7 @@
 		(dnp no)
 		(uuid "b3c8326c-fac9-41ed-8abf-73a839bfad79")
 		(property "Reference" "D3"
-			(at 189.992 62.23 90)
+			(at 190.246 62.992 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6229,7 @@
 			)
 		)
 		(property "Value" "MMBZ5231B-HE3-08"
-			(at 200.66 67.31 0)
+			(at 200.914 70.104 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6253,7 +6246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/mmbz5231b-he3-08/vishay"
+		(property "Datasheet" "https://www.digikey.dk/da/products/detail/vishay-general-semiconductor-diodes-division/MMBZ5231B-HE3-08/4832016"
 			(at 389.23 60.96 0)
 			(effects
 				(font
@@ -6370,15 +6363,15 @@
 		(dnp no)
 		(uuid "bbd1c20f-582e-479a-bf2e-28fceea9ee61")
 		(property "Reference" "U1"
-			(at 43.434 59.69 0)
+			(at 45.212 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 67.31 64.1665 0)
+		(property "Value" "LTH7R"
+			(at 62.23 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6715,15 +6708,15 @@
 		(dnp no)
 		(uuid "ec6c8da0-e965-4430-acf7-7d880cf763d6")
 		(property "Reference" "U2"
-			(at 98.298 78.486 0)
+			(at 93.726 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 98.425 78.74 0)
+		(property "Value" "HM1160"
+			(at 100.584 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.alldatasheet.com/datasheet-pdf/view/1297703/HMSEMI/HM1160.html"
 			(at 96.52 78.74 0)
 			(effects
 				(font

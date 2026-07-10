@@ -159,11 +159,23 @@ difference() {
 // subtractive items            
     
     //Make a hole for the charger circuit
-    translate([3.0, 6.5,-0.01]) // Use 0.8mm PCB!
+    translate([3.8, 5.5,-0.01]) // Use 0.8mm PCB!
       hull() {
         cylinder(d=3.4, h=7.0);
         translate([0,6.1,0]) cylinder(d=3.4, h=7.0);
       }
+
+    // Make a hole for the first (charging) LED
+    translate([3.8, 16.0,-0.01]) // Use 0.8mm PCB!
+      cylinder(d=1.5, h=7.0);
+
+    // Make a hole for the on/off switch lever
+    translate([1.8, 36.0 ,-0.01]) // Use 0.8mm PCB!
+      hull() {
+        cube([1.5,1.5,7.0]);
+        translate([0,3.0,0]) cube([1.5,1.5,7.0]);
+      }
+
 
     // remove tab release slot from base
     translate([base_w - 1.85,1.25+(super_l/2)-(latch_tab_l/2),-0.25]) 
