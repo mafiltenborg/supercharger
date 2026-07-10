@@ -28,3 +28,6 @@ I'm aiming for maximum capacity within the physical constraints given, USB-C cha
 ## Additional thoughts & ideas
 A charging stand to fit the TI59. Should be achievable as the pack's USB-C is pointing straight down. Could also be executed with magnetic pogo-pin-coupling. Hmmm...
 
+## A few specifics on the design
+Charger: LTH7R
+Charge state display: HM1160
